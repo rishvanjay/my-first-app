@@ -32,7 +32,7 @@ class TodoItem extends Component {
             <div style={styleSheet.todoItemContainter}>
             <h4>{this.props.todo}</h4>
             <h5>Completed: {this.state.completed.toString()}</h5>
-            <button onClick={this.onItemClick.bind(this)}>Change Status</button>
+            <button onClick={this.onItemClick.bind(this)}>Change Status now!</button>
             </div>
         );
     }
